@@ -20,3 +20,4 @@ docker pull имя_образа - скачать образы<br>
 docker exec имя_контейнера - выполнять команду внутри контейнера<br>
 docker run -d имя_контейнера sleep 15 - запустить контейнер на 15 секунд<br>
 docker rm $(docker ps -aq) - удалить все контейнеры
+docker exec имя_контейнера cat /etc/nginx/nginx.conf - зайти в контейнер и просмотреть содержимое файла nginx.conf
