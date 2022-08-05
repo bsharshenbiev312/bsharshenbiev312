@@ -9,7 +9,7 @@ bsharshenbiev312/bsharshenbiev312 is a ✨ special ✨ repository because its `R
 You can click the Preview link to take a look at your changes.
 --->
 
-docker run имя_образа - запустить образ
+docker run имя_образа - запустить образ<b>
 docker ps - запущенные процессы
 docker ps -a - работающие и неработающие процессы
 docker stop имя_контейнера - остановить докер
