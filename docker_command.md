@@ -25,7 +25,7 @@ docker run --name имя_контейнера -d nginx - запустить ко
 docker rmi ** ** ** ** - удалять образы указывая его отпечаток<br>
 ~~~
 
-### RUN NAME_IMAGES TAG
+### RUN NAME_IMAGE TAG
 
 ~~~
 docker run redis - запуск образа
