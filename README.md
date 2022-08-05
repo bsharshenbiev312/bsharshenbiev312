@@ -10,12 +10,12 @@ You can click the Preview link to take a look at your changes.
 --->
 
 docker run имя_образа - запустить образ<br>
-docker ps - запущенные процессы<br>
+docker ps - отобразить запущенные процессы<br>
 docker ps -a - работающие и неработающие процессы<br>
 docker stop имя_контейнера - остановить докер<br>
 docker rm имя_образа - удалить образ<br>
-docker images - отобразить образы<br>
+docker images - отобразить список образов<br>
 docker rmi имя_контейнера - удалить контейнеры<br>
-docker pull имя_образа - скачать образ<br>
+docker pull имя_образа - скачать образы<br>
 docker exec имя_контейнера - выполнять команду внутри контейнера<br>
-docker run -d alpine sleep 15 - запустить контейнер на 15 секунд<br>
+docker run -d имя_контейнера sleep 15 - запустить контейнер на 15 секунд<br>
